@@ -37,7 +37,7 @@ _This project allows users to view a listing of pets in an animal shelter._
 * Navigate to Postman and sample the following endpoints:
 
 ## Endpoints
-| Usage | Method | URL | Parameters |
+| Usage | Method | URL | Parameters | |
 | See All Pet Listings | Get | localhost:3000/pets |  | 
 | :---: | :---: | :---: | :---: | 
 
