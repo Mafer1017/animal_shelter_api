@@ -40,7 +40,7 @@ _This project allows users to view a listing of pets in an animal shelter._
 ### POST Pet
 To add pets to the database through the API, make a POST request to `localhost:3000/pets` and input key-value pairs in the body eg. `Key: "name" Value: "Max"` & `Key: "species" Value: "Cat"` and send the request.
 
-### POST Pet
+### Update Pet
 To update pets to the database through the API, make a PUT request to `localhost:3000/pets/:id` and input key-value pairs in the body eg. `Key: "name" Value: "Max"` & `Key: "species" Value: "Cat"` and send the request. Check the update by submitting a GET request to `localhost:3000/pets/:id`
 
 ## Known Bugs
