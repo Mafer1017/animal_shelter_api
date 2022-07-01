@@ -37,11 +37,9 @@ _This project allows users to view a listing of pets in an animal shelter._
 * Navigate to Postman and sample the following endpoints:
 
 ## Endpoints
-### POST Pet
-To add pets to the database through the API, make a POST request to `localhost:3000/pets` and input key-value pairs in the body eg. `Key: "name" Value: "Max"` & `Key: "species" Value: "Cat"` and send the request.
-
-### Update Pet
-To update pets to the database through the API, make a PUT request to `localhost:3000/pets/:id` and input key-value pairs in the body eg. `Key: "name" Value: "Max"` & `Key: "species" Value: "Cat"` and send the request. Check the update by submitting a GET request to `localhost:3000/pets/:id`
+| Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11 | #12 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269 | 254 |
 
 ## Known Bugs
 
