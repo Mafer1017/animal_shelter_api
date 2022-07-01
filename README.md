@@ -37,9 +37,14 @@ _This project allows users to view a listing of pets in an animal shelter._
 * Navigate to Postman and sample the following endpoints:
 
 ## Endpoints
-| Usage | Method | URL | Parameters | |
-| See All Pet Listings | Get | localhost:3000/pets |  | 
-| :---: | :---: | :---: | :---: | 
+| Usage | Method | URL | Parameters |
+| :---: | :---: | :---: | :---: |
+| See All Pet Listings | GET | localhost:3000/pets |  |
+| See Pages of Pets listed | GET | localhost:3000/pets?page=(integer here) | page |
+| See a specific pet | GET | localhost:3000/pets/:id | |
+| Create a pet entry | post | localhost:3000/pets | name & species |
+| Update a pet entry | put | localhost:3000/pets/:id | name & species |
+| Delete a pet entry | DELETE | localhost:3000/pets/:id |  |
 
 ## Known Bugs
 
