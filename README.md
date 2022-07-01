@@ -37,7 +37,7 @@ _This project allows users to view a listing of pets in an animal shelter._
 * Navigate to Postman and sample the following endpoints:
 
 ## Endpoints
-# POST Pet
+### POST Pet
 To add pets to the database through the API, make a POST request to `localhost:3000/pets` and input key-value pairs in the body eg. `Key: "name" Value: "Max"` & `Key: "species" Value: "Cat"` and send the request.
 
 ## Known Bugs
